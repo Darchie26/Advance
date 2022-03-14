@@ -1,4 +1,5 @@
 import Image from "next/image"
+import {MenuIcon, SearchIcon, ShoppingCartIcon} from "@heroicons/react/outline";
 
 function Header() {
   return (
@@ -32,7 +33,14 @@ function Header() {
               </div>
 
             </div>
+
+            <div className="hidden sm:flex items-center h-10 rounded-md flex-grow cursor-pointer">
+          <input className="focus:outline-none rounded-l-md rounded-r-md"  type="text"/>
+          <SearchIcon className="h-12 p-4"/>
         </div>
+        </div>
+
+        
 
 
     </header>
