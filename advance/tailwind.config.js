@@ -13,6 +13,10 @@ module.exports = {
           light: "#232F3E",
           DEFAULT: "#131921",
         },
+        header_top: {
+          stone: "#d6d3d1",
+          DEFAULT: "#131921",
+        }
       },
     },
   },
